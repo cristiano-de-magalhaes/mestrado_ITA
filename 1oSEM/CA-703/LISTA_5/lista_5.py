@@ -160,12 +160,12 @@ df = df.append(tabela_valores(20, 100, False), ignore_index=True)
 
 #%%
 
-path = "/Users/crisdemagalhaes/Programming/PyCharm/lista_5/"
+path = "/Users/[username]/Programming/PyCharm/lista_5/"
 file_name = "dentro_da_lista_outputs.csv"
 df.to_csv(path + file_name)
 
 #%%
 
-path = "/Users/crisdemagalhaes/Programming/PyCharm/lista_5/"
+path = "/Users/[username]/Programming/PyCharm/lista_5/"
 file_name = "fora_da_lista_outputs.csv"
 df.to_csv(path + file_name)
